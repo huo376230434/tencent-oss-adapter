@@ -1,0 +1,29 @@
+ {
+    "name": "huojunhao/tencent-oss-adapter",
+    "type": "library",
+    "description": "Use Tencent oss as Storage for Laravel 5.0+",
+    "keywords": ["tencent", "oss", "laravel", "storage"],
+    "homepage": "https://github.com/huo376230434",
+    "license": "MIT",
+    "require": {
+      "php": ">=5.4.0",
+      "league/flysystem": "~1.0",
+      "qcloud/cos-sdk-v5": ">=1.0"
+    },
+    "authors": [
+        {
+            "name": "huojunhao",
+            "email": "376230434@qq.com",
+            "homepage": "https://github.com/huo376230434",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "Huojunhao\\OSS\\": "src/"
+      }
+    },
+    "suggest": {
+        "laravel/framework": "5.5.*"
+    }
+}
