@@ -1,5 +1,5 @@
  {
-    "name": "huojunhao/tencent-oss-adapter",
+    "name": "huojunhao/tencent_oss_adapter",
     "type": "library",
     "description": "Use Tencent oss as Storage for Laravel 5.0+",
     "keywords": ["tencent", "oss", "laravel", "storage"],
